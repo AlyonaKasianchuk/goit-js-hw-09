@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/goit-js-hw-09/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -20,3 +20,4 @@
     "vite-plugin-html-inject": "^1.0.1"
   }
 }
+ 
