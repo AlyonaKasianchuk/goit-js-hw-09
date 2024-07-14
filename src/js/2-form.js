@@ -25,7 +25,7 @@ function handleFormSubmit(event) {
    alert('Fill please all fields');
    return;
  }
-
+  console.log(formData);
  localStorage.removeItem(STORAGE_KEY);
  event.currentTarget.reset();
 }
@@ -35,8 +35,6 @@ function handleFormSubmit(event) {
 function handleFormInput(event) {
   const value = event.target.value;
   const name = event.target.name;
-  console.log(value);
-  console.log(name);
 
   /************Зберігання даних в LS*********************/
 
