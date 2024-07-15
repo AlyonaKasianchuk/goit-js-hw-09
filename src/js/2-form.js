@@ -17,8 +17,8 @@ function handleFormSubmit(event) {
 
 
   const formData = {
-   email: form.elements.email.value,
-   message: form.elements.message.value,
+   email: form.elements.email.value.trim(),
+   message: form.elements.message.value.trim(),
  };
 
  if (!formData.email || !formData.message) {
